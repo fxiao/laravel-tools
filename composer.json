@@ -1,0 +1,24 @@
+{
+    "name": "fxiao/laravel-tools",
+    "description": "Laravel 快速开发工具包",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fxiao\\LaravelTools\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"    
+        ]
+    },
+    "authors": [
+        {
+            "name": "fxiao",
+            "email": "heyun51@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
